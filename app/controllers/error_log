@@ -1,0 +1,74 @@
+[28-Jul-2022 09:56:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on int in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php:37
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, '', 'The message fro...')
+#1 {main}
+  thrown in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php on line 37
+[28-Jul-2022 10:02:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on int in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php:40
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#1 {main}
+  thrown in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php on line 40
+[28-Jul-2022 10:04:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on int in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php:40
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#1 {main}
+  thrown in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php on line 40
+[28-Jul-2022 10:05:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on int in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php:40
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#1 {main}
+  thrown in /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php on line 40
+[28-Jul-2022 10:20:38 America/New_York] PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: aotugeme@gmail.com: "Your IP: 162.213.255.23 : Your domain gmail.com is not allowed in header
+From"
+ in /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2051
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 28 J...', 'The message fro...')
+#1 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php(51): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#4 {main}
+[28-Jul-2022 10:20:38 America/New_York] PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: petervile@gmail.com: "Your IP: 162.213.255.23 : Your domain gmail.com is not allowed in header
+From"
+ in /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2051
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 28 J...', 'The message fro...')
+#1 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php(51): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#4 {main}
+[28-Jul-2022 10:21:09 America/New_York] PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: aotugeme@gmail.com: "Your IP: 162.213.255.23 : Your domain gmail.com is not allowed in header
+From"
+ in /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2051
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 28 J...', 'The message fro...')
+#1 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php(51): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#4 {main}
+[28-Jul-2022 10:21:10 America/New_York] PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: petervile@gmail.com: "Your IP: 162.213.255.23 : Your domain gmail.com is not allowed in header
+From"
+ in /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2051
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 28 J...', 'The message fro...')
+#1 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php(51): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#4 {main}
+[28-Jul-2022 10:22:33 America/New_York] PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: aotugeme@gmail.com: "Your IP: 162.213.255.23 : Your domain danlok.com is not allowed in header
+From"
+ in /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2051
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 28 J...', 'The message fro...')
+#1 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php(51): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#4 {main}
+[28-Jul-2022 10:22:34 America/New_York] PHPMailer\PHPMailer\Exception: SMTP Error: The following recipients failed: petervile@gmail.com: "Your IP: 162.213.255.23 : Your domain danlok.com is not allowed in header
+From"
+ in /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php:2051
+Stack trace:
+#0 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 28 J...', 'The message fro...')
+#1 /home/ftlflbsa/email.ftlfs.com/vendor/phpmailer/phpmailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ftlflbsa/email.ftlfs.com/app/classes/Mail.php(51): PHPMailer\PHPMailer\PHPMailer->send()
+#3 /home/ftlflbsa/email.ftlfs.com/app/controllers/bulk.php(46): App\Classes\Mail->deliver(Array, Array, 'Test Email', 'The message fro...')
+#4 {main}
